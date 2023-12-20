@@ -1,0 +1,244 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+}
+
+
+
+button {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 6px rgb(207, 207, 207);
+}
+
+button:hover {
+  border: none;
+  scale: 1.05;
+  transition-duration: 1s;
+}
+
+#foot {
+  position: relative;
+  top: 15px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px #d9d4e7;
+  width: 150px;
+  height: 50px;
+  background-color: #000000;
+  animation-duration: 5s;
+}
+
+.button-os {
+  width: 150px;
+  height: 50px;
+  margin: auto;
+  background-color: #000000;
+  border: 2.5px solid #0e172c;
+  transition: background-color 2.2s;
+  transition-duration: 3s;
+  transition: 1.5s;
+}
+
+.button-os:hover {
+  top: 30px;
+  background-color: #1b9ed2;
+}
+
+.button-os a {
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  color: #0e172c;
+  transition: 1.5s;
+}
+
+.button-os a:hover {
+  letter-spacing: 5px;
+}
+
+.action-button-lg {
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  width: 320px;
+  display: inline-block;
+  line-height: 40px;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #000;
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 0, 2px 2px 0, 2px 2px 0, 3px 3px 0, 3px 3px 0;
+  position: relative;
+  border-radius: 12px;
+}
+
+.action-button-lg:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-color: #000;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.action-button-lg:hover {
+  background-color: #059fe7;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.action-button-selected {
+  text-decoration: none;
+  color: #000;
+  margin: auto;
+  width: 110px;
+  display: inline-block;
+  line-height: 40px;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #fff;
+  position: relative;
+  border-radius: 12px;
+}
+
+.disabled-action-button {
+  color: #fff;
+  width: 110px;
+  line-height: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #cacaca;
+  border-radius: 12px;
+}
+
+.action-button {
+  color: #fff;
+  width: 110px;
+  line-height: 40px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #2e79dc;
+  border-radius: 12px;
+}
+
+.action-button:hover {
+  background-color: #4e96f6;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.connect-button {
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  width: 130px;
+  display: inline-block;
+  line-height: 45px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #2e79dc;
+  border: 1px solid #fff;
+  position: relative;
+  border-radius: 12px;
+}
+
+.connect-button:hover {
+  background-color: #579efc;
+  transition: all 0.3s;
+}
+
+.action-button-big {
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  width: 150px;
+  display: inline-block;
+  line-height: 40px;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #000;
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 0, 2px 2px 0, 2px 2px 0, 3px 3px 0, 3px 3px 0;
+  position: relative;
+  border-radius: 15px;
+}
+
+.action-button-big:hover {
+  background-color: #579efc;
+  border-radius: 15px;
+  transition: all 0.5s;
+} */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.action-button {
+  color: #fff;
+  width: 110px;
+  line-height: 40px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #2e79dc;
+  border-radius: 12px;
+}
+
+.action-button:hover {
+  scale: 110%;
+  background-color: #fff;
+  color: #2e79dc;
+  border: 1px solid #2e79dc;
+  transition: all 0.2s;
+}
+
+.action-button:active {
+  scale: 90%;
+  transition: all 0.2s;
+}
+
+.disabled-action-button {
+  color: #fff;
+  width: 110px;
+  line-height: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #cacaca;
+  border-radius: 12px;
+}
